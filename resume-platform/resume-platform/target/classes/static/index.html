@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Platform</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        input, textarea { padding: 5px; margin: 5px; width: 200px; }
+        button { padding: 5px 10px; margin: 5px 0; }
+        .user-list { margin-top: 20px; }
+        table { border-collapse: collapse; width: 70%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Resume Platform</h1>
+
+    <h2>Sign Up</h2>
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button onclick="signup()">Sign Up</button>
+
+    <h2>Login</h2>
+    <input type="email" id="loginEmail" placeholder="Email"><br>
+    <input type="password" id="loginPassword" placeholder="Password"><br>
+    <button onclick="login()">Login</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

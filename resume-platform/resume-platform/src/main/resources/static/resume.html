@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Resume</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #f6f7fb; color: #111827; }
+#resumeContainer { max-width: 800px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; }
+h1 { font-size: 28px; margin-bottom: 10px; }
+h2 { font-size: 22px; margin-top: 20px; margin-bottom: 8px; }
+p { font-size: 16px; line-height: 1.4; }
+button { margin-top: 20px; padding: 10px 14px; border: none; border-radius: 8px; background: #6366f1; color: white; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<div id="resumeContainer">
+    <h1 id="resName">Name</h1>
+    <p id="resEmail">Email</p>
+
+    <h2>Summary</h2>
+    <p id="resSummary">Your summary here</p>
+
+    <h2>Experience</h2>
+    <p id="resExperience">Your experience here</p>
+
+    <h2>Skills</h2>
+    <p id="resSkills">Your skills here</p>
+
+    <h2>Education</h2>
+    <p id="resEducation">Your education here</p>
+
+    <h2>Projects</h2>
+    <p id="resProjects">Your projects here</p>
+
+    <h2>Certifications</h2>
+    <p id="resCertifications">Your certifications here</p>
+
+    <h2>Achievements</h2>
+    <p id="resAchievements">Your achievements here</p>
+</div>
+
+<button onclick="downloadResume()">Download as PDF</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="resume.js"></script>
+</body>
+</html>
